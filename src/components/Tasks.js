@@ -6,7 +6,6 @@ export const Tasks = () => {
 
     let projectName = '';
 
-    console.log('!!!!!!!!!!!!!!!!', tasks);
     return (
         <div className="tasks" data-testid="tasks">
             <h2 data-testid="project-name">{projectName}</h2>
